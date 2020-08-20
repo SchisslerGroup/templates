@@ -1,0 +1,38 @@
+---
+institution:
+  name: "University of Nevada, Reno"
+  department: "Mathematics and Statistics"
+  address:
+    line1: "1664 N. Virginia Street / 0084"
+    line2: "Reno, Nevada 89557"
+  phone: "(775) 784-6773"
+  fax: "(775) 784-6378"
+  url: https://www.unr.edu/math/
+  logo: "logos/blue.png"
+author:
+  first: "Alfred"
+  last: "Schissler"
+  short: "Grant"
+  title: "Ph.D."
+  position: "Assistant Professor, Statistics"
+  signature: "signature.png"
+to:
+  first: "Alexander"
+  last: "Knudson"
+  short: "Alex"
+date: "`r format(Sys.Date(), format='%d %B %Y')`"
+opening: "To Whom It May Concern:"
+closing: "Sincerely,"
+output:
+  pdf_document:
+    template: template.tex
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis tristique est, non pellentesque neque vulputate nec. In tempor luctus aliquet. In et metus vel est tincidunt venenatis et nec sapien. Etiam vitae egestas purus. Nullam iaculis nisl non leo gravida, sit amet accumsan enim tincidunt. Mauris dictum lorem quis dapibus ultrices. Nulla eget tortor a mi aliquet faucibus in vulputate justo. Nullam pulvinar ante in dignissim mattis. Donec eu ullamcorper diam. Duis congue urna id congue blandit. Mauris molestie tellus ante.
+
+Etiam convallis est vel dui molestie, id ultrices turpis faucibus. Cras egestas, urna eu vehicula suscipit, est lacus egestas mauris, at convallis ligula mauris non velit. Nulla vitae turpis et velit egestas commodo. Aenean sapien metus, ultrices id dapibus sed, dignissim at est. Sed ornare nisi vel dictum facilisis. Donec aliquet turpis ante, vel mattis est semper sit amet. Nullam condimentum eros sed enim dictum sollicitudin.
+
+Integer tempus, nulla ac ultricies sagittis, justo lorem vestibulum ligula, sit amet pharetra risus lectus vel augue. Suspendisse a bibendum sapien. Phasellus nec lacus venenatis purus vestibulum rhoncus vitae nec augue. Nam sodales sed eros in efficitur. Vestibulum viverra purus eget magna facilisis, a convallis tortor tincidunt. Praesent nisi eros, placerat eu diam ac, tempus faucibus mi. Aliquam fringilla tortor a ipsum pretium posuere. Vestibulum laoreet luctus augue in finibus. Nulla lacinia sapien et finibus tempus. Etiam blandit quis elit quis molestie. Maecenas quis pretium velit. Donec auctor a ex ac sagittis. Sed enim quam, commodo ut nibh in, iaculis congue tellus. Quisque velit magna, vehicula quis enim dictum, suscipit auctor est.
+
+Vivamus eget dolor id augue lacinia iaculis id vitae dolor. Proin dapibus sapien eu velit cursus rutrum. Nunc pharetra ex urna, nec euismod neque consequat sed. Fusce accumsan, justo sed volutpat pharetra, augue leo eleifend mi, non mattis mi libero id magna. Nam augue sem, rutrum vitae erat at, congue bibendum augue. Aliquam erat volutpat. Nulla venenatis non magna id semper.
+

@@ -1,0 +1,57 @@
+\documentclass[10pt]{letter}
+
+\usepackage[top=0.75in, left=1in, bottom=0.5in, right=1in]{geometry}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{url}
+
+
+
+\definecolor{unr_darkblue}{RGB}{4, 30, 66}
+\definecolor{unr_silver}{RGB}{167, 169, 172}
+\definecolor{unr_metallic}{RGB}{100, 100, 100}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{minipage}{0.12\textwidth}
+\includegraphics[width=0.75in, height=0.75in]{$institution.logo$}
+\end{minipage}
+\begin{minipage}{0.88\textwidth}
+\textcolor{unr_metallic}{Department of}\\
+{\large {\textcolor{unr_darkblue}{$institution.department$}}}\\
+\textcolor{unr_metallic}{$institution.name$}
+\end{minipage} \hfill
+
+\begin{flushright}
+$date$
+\end{flushright}
+
+$opening$
+\vspace{1em}
+
+$body$
+\vspace{1em}
+
+$closing$
+
+\includegraphics[width=2in]{$author.signature$}
+
+$author.first$ $if(author.short)$"$author.short$" $endif$$author.last$, $author.title$\\
+$author.position$
+
+\vfill
+
+\begin{flushright}
+\small
+\textbf{\textcolor{unr_darkblue}{Department of $institution.department$}}\\
+$institution.address.line1$\\
+$institution.address.line2$\\
+\textit{\textcolor{unr_silver}{Phone:}} $institution.phone$\\
+\textit{\textcolor{unr_silver}{Fax:}} $institution.fax$\\
+$institution.url$
+\end{flushright}
+
+\end{document}
